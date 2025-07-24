@@ -1,9 +1,7 @@
 name: ESP32 Build
 
 on:
-  push:
-    branches:
-      - main     # Trigger on push to main
+  push: # Trigger on push to main
   workflow_dispatch:   # Also allow manual run via button
 
 jobs:
@@ -31,6 +29,6 @@ jobs:
       - name: Build your ESP32 project
         run: |
           source esp-idf/export.sh
-          cd /blink
+          cd C:\Users\ahmed\OneDrive\Documents\esp_project\blink
           idf.py build
         shell: bash
