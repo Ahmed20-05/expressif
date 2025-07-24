@@ -27,7 +27,7 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add build
-          git diff --cached --quiet || (
-            git commit -m "Add built firmware files"
-            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Ahmed20-05/expressif.git HEAD:main
-          )
+          git commit -m "Update Doxygen docs [skip ci]" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
