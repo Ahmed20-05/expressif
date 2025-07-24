@@ -1,0 +1,5 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/opt/esp/python_env/idf6.0_py3.12_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 /app/Ahmed20-05/expressif
+/tmp/kconfgen_tmpbnp_e9ht:5: warning: '"Not determined"' is not a valid value for the bool symbol SOC_BROWNOUT_RESET_SUPPORTED (defined at /opt/esp/idf/./components/soc/esp32/include/soc/Kconfig.soc_caps.in:266). Assignment ignored.
+warning: the value 'y' is invalid for SOC_MPI_OPERATIONS_NUM (defined at /opt/esp/idf/./components/soc/esp32/include/soc/Kconfig.soc_caps.in:802), which has type int -- assignment ignored
+warning: the value 'y' is invalid for SOC_EFUSE_SECURE_BOOT_KEY_DIGESTS (defined at /opt/esp/idf/./components/soc/esp32/include/soc/Kconfig.soc_caps.in:826), which has type int -- assignment ignored
+warning: user value 68 on the int symbol LWIP_DHCP_OPTIONS_LEN (defined at /opt/esp/idf/components/lwip/Kconfig:372) ignored due to being outside the active range ([69, 255]) -- falling back on defaults

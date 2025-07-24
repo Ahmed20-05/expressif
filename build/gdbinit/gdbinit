@@ -1,0 +1,2 @@
+source /app/Ahmed20-05/expressif/build/gdbinit/symbols
+source /app/Ahmed20-05/expressif/build/gdbinit/connect

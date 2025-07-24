@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/app/Ahmed20-05/expressif/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/app/Ahmed20-05/expressif/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/app/Ahmed20-05/expressif/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/app/Ahmed20-05/expressif/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/app/Ahmed20-05/expressif/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/app/Ahmed20-05/expressif/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/app/Ahmed20-05/expressif/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/app/Ahmed20-05/expressif/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/app/Ahmed20-05/expressif/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/app/Ahmed20-05/expressif/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
