@@ -31,6 +31,6 @@ jobs:
       - name: Build your ESP32 project
         run: |
           source esp-idf/export.sh
-          cd your_project_directory    # replace this with your real folder
+          cd /blink
           idf.py build
         shell: bash
