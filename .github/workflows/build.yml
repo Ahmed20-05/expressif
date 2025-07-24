@@ -19,9 +19,6 @@ jobs:
           target: esp32
           command: idf.py fullclean build
 
-      - name: List Build Output
-        run: ls -lh build
-
       - name: Push build/ to repo
         run: |
           git config --global user.name "github-actions"
