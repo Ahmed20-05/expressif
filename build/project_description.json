@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "blink",
-    "project_version":    "02e514a",
+    "project_version":    "b14bf8d-dirty",
     "project_path":       "/app/Ahmed20-05/expressif",
     "idf_path":           "/opt/esp/idf",
     "build_dir":          "/app/Ahmed20-05/expressif/build",

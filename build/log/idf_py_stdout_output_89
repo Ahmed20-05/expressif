@@ -52,7 +52,7 @@ Loading defaults file /app/Ahmed20-05/expressif/sdkconfig.defaults.esp32...
 -- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
 -- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
 -- USING O3
--- App "blink" version: 02e514a
+-- App "blink" version: b14bf8d-dirty
 -- Adding linker script /app/Ahmed20-05/expressif/build/esp-idf/esp_system/ld/memory.ld
 -- Adding linker script /app/Ahmed20-05/expressif/build/esp-idf/esp_system/ld/sections.ld.in
 -- Adding linker script /opt/esp/idf/components/esp_rom/esp32/ld/esp32.rom.ld
