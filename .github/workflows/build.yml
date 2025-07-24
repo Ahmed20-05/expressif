@@ -2,24 +2,22 @@ name: ESP32 Build
 
 on:
   push:
-    branches:
-      - main
-  workflow_dispatch:
+    branches: [main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up ESP-IDF and Build Project
+      - name: Build with ESP-IDF
         uses: espressif/esp-idf-ci-action@v1
         with:
-          path: esp_project/blink 
-          target: esp32        # Set your chip (esp32, esp32c3, esp32s3, etc.)
-          command: idf.py build
+          path: esp_project/blink   # ← must match actual relative path to project root
+          target: esp32
+          command: idf.py fullclean build
 
       - name: Upload Build Artifacts
         uses: actions/upload-artifact@v4
