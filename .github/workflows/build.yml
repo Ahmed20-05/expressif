@@ -17,7 +17,7 @@ jobs:
       - name: Set up ESP-IDF and Build Project
         uses: espressif/esp-idf-ci-action@v1
         with:
-          path: .              # Your ESP-IDF project root (change if it's in a subfolder)
+          path: esp_project/blink 
           target: esp32        # Set your chip (esp32, esp32c3, esp32s3, etc.)
           command: idf.py build
 
@@ -25,4 +25,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: esp32-build
-          path: build
+          path: esp_project/blink/build
