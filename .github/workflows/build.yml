@@ -29,5 +29,5 @@ jobs:
           git add build
           git diff --cached --quiet || (
             git commit -m "Add built firmware files"
-            git push origin HEAD
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Ahmed20-05/expressif.git HEAD:main
           )
