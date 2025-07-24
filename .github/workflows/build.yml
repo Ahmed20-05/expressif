@@ -22,8 +22,8 @@ jobs:
       - name: Upload Build Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: esp32-build
-          path: ./esp_build
+          name: firmware-artifacts
+          path: ./firmware
 
       - name: Move build artifacts to repo build folder
         run: |
