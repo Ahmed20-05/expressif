@@ -12,11 +12,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: List files for debugging
-        run: |
-            ls -R
-            ls -R esp_project/blink
-
       - name: Build with ESP-IDF
         uses: espressif/esp-idf-ci-action@v1
         with:
