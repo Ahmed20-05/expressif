@@ -23,4 +23,20 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: esp32-build
-          path: esp_project/blink/build
+          path: ./build
+
+      - name: Move build artifacts to repo build folder
+        run: |
+          mkdir -p build
+          cp -v ./build/*.bin ./build/
+
+      - name: Commit and push build artifacts
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add build/*.bin
+          git commit -m "Add compiled firmware binaries"
+          git push origin main
+
+
+
