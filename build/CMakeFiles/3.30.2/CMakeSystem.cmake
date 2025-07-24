@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.11.0-1018-azure")
-set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.11.0-1018-azure")
-set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
+set(CMAKE_HOST_SYSTEM "Windows-10.0.26100")
+set(CMAKE_HOST_SYSTEM_NAME "Windows")
+set(CMAKE_HOST_SYSTEM_VERSION "10.0.26100")
+set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
 
-include("/opt/esp/idf/tools/cmake/toolchain-esp32.cmake")
+include("C:/Users/ahmed/.espressif/frameworks/esp-idf-v5.4.1/tools/cmake/toolchain-esp32.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

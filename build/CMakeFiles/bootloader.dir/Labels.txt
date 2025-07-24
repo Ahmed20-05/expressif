@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-/app/Ahmed20-05/expressif/build/CMakeFiles/bootloader
-/app/Ahmed20-05/expressif/build/CMakeFiles/bootloader.rule
-/app/Ahmed20-05/expressif/build/CMakeFiles/bootloader-complete.rule
-/app/Ahmed20-05/expressif/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-/app/Ahmed20-05/expressif/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-/app/Ahmed20-05/expressif/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-/app/Ahmed20-05/expressif/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-/app/Ahmed20-05/expressif/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-/app/Ahmed20-05/expressif/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-/app/Ahmed20-05/expressif/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+C:/Users/ahmed/OneDrive/Documents/esp_project/blink/build/CMakeFiles/bootloader
+C:/Users/ahmed/OneDrive/Documents/esp_project/blink/build/CMakeFiles/bootloader.rule
+C:/Users/ahmed/OneDrive/Documents/esp_project/blink/build/CMakeFiles/bootloader-complete.rule
+C:/Users/ahmed/OneDrive/Documents/esp_project/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/ahmed/OneDrive/Documents/esp_project/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/ahmed/OneDrive/Documents/esp_project/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/ahmed/OneDrive/Documents/esp_project/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/ahmed/OneDrive/Documents/esp_project/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/ahmed/OneDrive/Documents/esp_project/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/ahmed/OneDrive/Documents/esp_project/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
