@@ -1,0 +1,2 @@
+source /app/Ahmed20-05/expressif/build/bootloader/gdbinit/symbols
+source /app/Ahmed20-05/expressif/build/bootloader/gdbinit/connect
